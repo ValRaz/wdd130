@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;600&family=Sedgwick+Ave+Display&display=swap');
 
+div #content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 body{
     background-color: #B8A8DC;
     color: #271D3B;
@@ -33,11 +38,6 @@ header{
     background-color: #2B3E50;
     color: #6BC7BC;
 
-}
-
-div #content{
-    max-width: 1600px;
-    margin: 0 auto;
 }
 
 nav a{
