@@ -2,14 +2,14 @@
 
 .content{
     display: grid;
-    grid-template-columns: 2,1fr;
+    grid-template-columns: 2, 1fr;
 }
 
 img{
     background-color: white;
     grid-column: 1/3;
     grid-row: 1/2;
-    margin:0,auto;
+    align-self: center;
     padding: 10px
 }
 
@@ -27,7 +27,6 @@ h1{
 
 #greybox{
     background-color: gray;
-    padding: 10px;
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 1;
@@ -39,7 +38,7 @@ p{
     font-family: "Lora", "serif";
     text-align: center;
     align-self: last baseline;
-    font-size: 4em;
+    font-size: 5em;
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 3;
