@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #322736   ;
+  --secondary-color: #9E4CA9 ;
+  --accent1-color: #211924;
+  --accent2-color: #B888BF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Slackside One", sans-serif;
