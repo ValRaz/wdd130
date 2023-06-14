@@ -224,6 +224,9 @@ footer .social img{
     padding-top: 15px;
 }
 
+/*CSS for Rivers Subpage begins here*/
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -265,3 +268,4 @@ footer .social img{
         margin-top: 25px;
     }
 }
+
