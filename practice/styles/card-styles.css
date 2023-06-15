@@ -1,32 +1,94 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+.grid{
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 2,fr;
 }
 
 .hero-image{
+  width: 100%;
+  grid-row: 1/2;
+  padding: 5px;
+  }
 
+h4{
+  font-size: small;
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 h1{
+  color: black;
+  margin-top: 0;
+}
+p{
+  color: gray;
+}
 
+.content{
+  text-align: center;
+  grid-row: 2/3;
+  font-family: "Roboto Slab","Helvetica", "sans-serif";
 }
 
 sup {
-    vertical-align: super;
-    font-size: smaller;
-  }
+  vertical-align: super;
+  font-size: smaller;
+}
 
-footer{
-
+.footer-grid{
+  width: 500px;
+  background-color: cornflowerblue;
+  display: grid;
+  grid-template-columns: repeat(3,166.7px);
+  grid-template-rows: 1fr;
+}
+.footer-stats{
+  margin-bottom: 0;
 }
 
 .read{
+  font-family: "Roboto Slab","Helvetica", "sans-serif";
+  color: white;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+}
 
+#read{
+  margin-top: 0;
+  color: white;
+  font-size: small;
 }
 
 .views{
+  font-family: "Roboto Slab","Helvetica", "sans-serif";
+  color: white;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: center;
+}
 
+#views{
+  margin-top: 0;
+  color: white;
+  font-size: small;
 }
 
 .comments{
+  font-family: "Roboto Slab","Helvetica", "sans-serif";
+  color: white;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
 
+#comments{
+  margin-top: 0;
+  color: white;
+  font-size: small;
 }
