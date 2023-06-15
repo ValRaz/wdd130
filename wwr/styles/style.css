@@ -279,6 +279,12 @@ nav a:hover{
     grid-row: 1/2;
 }
 
+.rivers-hero-title{
+    color: #3EA397;
+    font-family: "Sedgwick Ave Display","Bradley Hand", "sans-serif";
+    font-size: 3em;
+}
+
 #rivers-hero-msg{
     grid-column: 1/4;
     grid-row: 1/2;
@@ -291,7 +297,7 @@ nav a:hover{
     display: grid;
     max-width: 1600px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 4, 1fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .beginner{
@@ -331,14 +337,14 @@ nav a:hover{
     padding-bottom: 25px;
 }
 
-#rivers-title{
+.rivers-title{
     color: #1C2A35;
     font-family: "Sedgwick Ave Display","Bradley Hand", "sans-serif";
     font-size: 2em;
     margin-top: 10px;
 }
 
-#rivers-msg{
+.rivers-msg{
     background-color: #B8A8DC;
     color: #271D3B;
     font-family: "Roboto Slab", "Helvetica", "sans-serif";
