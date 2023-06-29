@@ -1,48 +1,192 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair&family=Slackside+One&display=swap');
 
 #content{
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 body{
     background-color: #211924;
-    color: #B888BF;
+    color: #9E4CA9;
     font-family: "Playfair", "Garamond", "serif";
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
+#logo{
+    width: 260px;
+    padding-top:5px;   
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #9E4CA9;
+    color: #322736;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #322736;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #322736;
+    color: #9E4CA9;
+}
+
+#hero-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-img{
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#title{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.hero-msg{
+    color: #211924;
+    font-family: "Slackside One","Bradley Hand", "sans-serif";
+    font-size: 3em;
+    margin-top: 10px;
+    text-align: center;
+}
+.hero-msg :hover{
+    transform: scale(1.1);
+}
+
+h3{
+    color: #B888BF;
+    font-family: "Slackside One","Bradley Hand", "sans-serif";
+    font-size: 3em;
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+
+#intro{
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #776080;
+    transition: transform .5s;
+}
+
+#intro :hover{
+    transform: scale(1.1);
+}
+
+.text-box p{
+    color: #9E4CA9;
+    font-family: "Playfair", "Garamond", "serif";
+    font-size: 1em;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+footer{
+    background-color: #9E4CA9;
+    color: #322736;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+  background-color: #322736;
+  color: #9E4CA9;  
+}
+
+@media (max-width: 768px) {
+    #content {
+      max-width: 100%;
+      padding: 0 20px;
     }
-    nav, footer {
-        flex-direction: column;
+  
+    body {
+      font-size: 18px;
     }
+  
+    #logo {
+      width: 200px;
+    }
+  
+    header {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    nav {
+      flex-direction: column;
+      padding: 10px 0;
+    }
+  
     nav a {
-        display: block;
-        padding: 15px;
+      padding: 10px;
     }
-    #hero {
-        margin-top: 0;
+  
+    #hero-grid {
+      grid-template-columns: 1fr;
     }
-    #hero-msg {
-        margin-top: 0;
+  
+    #hero-img {
+      height: auto;
+      width: 100%;
+      padding: 5px;
     }
-    #hero-msg h4 {
-        display: none;
+  
+    #hero-box {
+      grid-column: 1;
+      grid-row: 1;
     }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
+  
+    #title {
+      grid-column: 1;
+      grid-row: 2;
     }
-   background {
-        display: none;
-    }
- footer {
-        margin-top: 25px;
+  
+    .hero-msg,
+    h3 {
+      font-size: 2em;
     }
 }
