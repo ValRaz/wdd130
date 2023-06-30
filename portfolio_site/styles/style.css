@@ -151,6 +151,7 @@ footer a:hover{
 }
   
 .logo-design #item-img {
+    height: 400px;
     grid-column: 1/2;
 }
   
@@ -176,6 +177,7 @@ footer a:hover{
 }
   
 .wireframe #item-img {
+    height: 400px;
     grid-column: 2/3;
     justify-self: end; 
 }
@@ -202,6 +204,7 @@ footer a:hover{
 }
   
 .page-top #item-img {
+    height: 400px;
     grid-column: 1/2;
     justify-self: end;
 }
@@ -229,6 +232,7 @@ footer a:hover{
 }
   
 .important-content #item-img {
+    height: 400px;
     grid-column: 2/3;
     justify-self: end; 
 }
@@ -242,15 +246,6 @@ footer a:hover{
     text-align: center;
 }
   
-#item-img img{
-    height: 400px;
-    transition: transform 0.5s;
-    padding: 15px;
-}
-
-#item-img img:hover {
-    transform: scale(1.1 );
-}
   
 #item-msg {
     padding: 10px;
