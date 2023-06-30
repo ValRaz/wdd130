@@ -138,6 +138,125 @@ footer a:hover{
 
 /*CSS for Web Development begins here*/
 
+.webdev-main-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+.logo-design {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+  
+.logo-design #item-img {
+    grid-column: 1/2;
+}
+  
+.logo-design #item-msg {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.logo-design #item-msg h3,
+.logo-design #item-msg p {
+    text-align: center;
+}
+  
+.wireframe {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+  
+.wireframe #item-img {
+    grid-column: 2/3;
+    justify-self: end; 
+}
+  
+.wireframe #item-msg {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.wireframe #item-msg h3,
+.wireframe #item-msg p {
+    text-align: center;
+}
+  
+.page-top {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+  
+.page-top #item-img {
+    grid-column: 1/2;
+    justify-self: end;
+}
+  
+.page-top #item-msg {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+  
+.page-top #item-msg h3,
+.page-top #item-msg p {
+    text-align: center; 
+}
+  
+.important-content {
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+  
+.important-content #item-img {
+    grid-column: 2/3;
+    justify-self: end; 
+}
+  
+.important-content #item-msg {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+  
+#item-img {
+    height: 400px;
+    transition: transform 0.5s;
+    padding: 15px;
+}
+
+#item-img :hover {
+    transform: scale(1.1 );
+}
+  
+#item-msg {
+    padding: 10px;
+}
+
+
 @media (max-width: 768px) {
     #content {
       max-width: 100%;
