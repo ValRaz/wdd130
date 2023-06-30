@@ -242,13 +242,13 @@ footer a:hover{
     text-align: center;
 }
   
-#item-img {
+#item-img img{
     height: 400px;
     transition: transform 0.5s;
     padding: 15px;
 }
 
-#item-img :hover {
+#item-img img:hover {
     transform: scale(1.1 );
 }
   
