@@ -329,7 +329,6 @@ footer a:hover{
     grid-row: 4/5;
 }
 
-
 @media (max-width: 768px) {
     #content {
       max-width: 100%;
