@@ -27,7 +27,7 @@
 		<main>
 			<div id="hero-grid">
                 <div id="hero-box">
-					<img src="images/portfoliostock2.png" alt="Hero Image">
+					<img id="hero-img" src="images/portfoliostock2.png" alt="Hero Image">
 				</div>
 
 				<section id="title">
@@ -35,27 +35,38 @@
 				</section>
 			</div>
 
-			<section class="main-grid">
-				<div>
-					<img src="images/softwarestock2.jpeg" alt="darkmode code snip">
-					<h2>Hobbyist/ Fun and Games</h2>
-					<p> These programs were written and are executable in VS Code</p>
-					<ol>
-						<li><a href="programs/MadLib.py"> Simple Mad Libs </a></li>
-						<li><a href="programs/MiniVenture.py"> Miniventure Chapter 1</a> (a text-based RPG)</li>
-						<li><a href="programs/Wordle.py">Simple Wordle Game</a></li>
-					</ol>
+			<section class="software-main-grid">
+				
+				<div id="hobby-header-box">
+					<img id="hobby-header-img" src="images/softwarestock2.jpeg" alt="darkmode code snip">
 				</div>
-
-				<div>
-					<img src="images/codingstock2.png" alt="second code snip">
+				<section id="hobby-header-msg">
+					<h2>Hobbyist Programs/ Fun and Games</h2>
+				</section>
+				<section id="disclaimer">
+					<h4> These programs were written and are executable in VS Code</h4>
+				</section>
+				<section id="hobby-list">
+					<ol>
+						<li><a href="programs/MadLib.py"> Simple Mad Libs</a> A mad-libs lite for easy fun.</li>
+						<li><a href="programs/MiniVenture.py"> Miniventure Chapter 1</a> The beginning chapter of a text-based RPG.</li>
+						<li><a href="programs/Wordle.py">Simple Wordle Game</a> A simple attempt at a wordle clone.</li>
+					</ol>
+				</section>
+				
+				<div id="prof-header-box">
+					<img id="prof-header-img" src="images/codingstock2.png" alt="second code snip">
+				</div>
+				<section id="prof-header-msg">
 					<h2>Professional Use Programs</h2>
+				</section>
+				<section id="prof-list">	
 					<ol>
 						<li><a href="programs/family_history.py">Family history</a> pulls and prints specified data from multiple dictionaries containing personal statistics</li>
 						<li><a href="programs/chemistry.py">Chemistry</a> is a molar mass calculator that also matches the chemical formula with a known molecule type from a compound list, and prints it with the molar mass, and total proton count.</li>
 						<li><a href="programs/receipt.py">Receipt</a> pulls grocery order data from a CSV file, organizes and prints it into an itemized receipt with functionality that adds discounts for specific days/times according to checkout date and time and prints a cupon for one of the items ordered.</li>
 					</ol>
-				</div>
+				</section>	
 			</section>
 		</main>
 

@@ -69,7 +69,7 @@ nav a:hover{
 .hero-msg{
     color: #211924;
     font-family: "Slackside One","Bradley Hand", "sans-serif";
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 10px;
     text-align: center;
 }
@@ -249,6 +249,84 @@ footer a:hover{
   
 #item-msg {
     padding: 10px;
+}
+
+/*CSS for Software Development begins here*/
+
+.software-main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+  
+#hobby-header-img {
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+#hobby-header-box {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+  
+#hobby-header-msg {
+    color: #C7A2CD;
+    font-family: "Slackside One", "Bradley Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#hobby-list {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#prof-header-img {
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+#prof-header-box {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#prof-header-msg {
+    color: #C7A2CD;
+    font-family: "Slackside One", "Bradley Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+  
+#disclaimer {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prof-list {
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
 
 
