@@ -192,6 +192,8 @@ footer a:hover{
   
 .logo-design #item-img {
     height: 400px;
+    padding: 5px;
+    margin-top: 10px;
     grid-column: 1/2;
 }
   
