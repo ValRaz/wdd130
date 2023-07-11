@@ -247,8 +247,9 @@ footer a:hover{
   
 .page-top #item-img {
     height: 400px;
+    padding: 5px;
     grid-column: 1/2;
-    justify-self: end;
+    justify-self: start;
 }
   
 .page-top #item-msg {
