@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: #211924;
-    color: #9E4CA9;
+    background-color: #1c151f;
+    color: #c38cca;
     font-family: "Playfair", "Garamond", "serif";
     font-size: 22px;
     margin: 0;
@@ -22,8 +22,8 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #9E4CA9;
-    color: #322736;
+    background-color: #d572e2;
+    color: #1f1822;
 }
 
 nav{
@@ -103,7 +103,7 @@ h3{
 }
 
 .text-box p{
-    color: #9E4CA9;
+    color: #B481BB;
     font-family: "Playfair", "Garamond", "serif";
     font-size: 1em;
     padding-bottom: 15px;
@@ -111,8 +111,8 @@ h3{
 }
 
 footer{
-    background-color: #9E4CA9;
-    color: #322736;
+  background-color: #d572e2;
+  color: #1f1822;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
