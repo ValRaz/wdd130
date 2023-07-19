@@ -102,6 +102,10 @@ h3{
     transform: scale(1.1);
 }
 
+#purpose{
+  grid-row: 2/3;
+  box-shadow: 10px 10px 20px #776080;
+}
 .text-box p{
     color: #B481BB;
     font-family: "Playfair", "Garamond", "serif";
